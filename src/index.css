@@ -50,9 +50,9 @@ header nav a {
   color: whitesmoke;
 }
 
-nav a {
+nav a,a {
   color: white;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 header nav a.active {
