@@ -1,6 +1,6 @@
 :root {
-  --primary: #bc4123
-  --secondary: #2b3452
+  --primary: #bc4123;
+  --secondary: #2b3452;
 }
 
 * {
@@ -12,7 +12,8 @@
 body {
   margin:0;
   padding: 20px;
-  background-color: var(--secondary);
+  background: var(--secondary);
+  color: white;
 }
 
 p {
