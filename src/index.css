@@ -28,3 +28,33 @@ button {
   background: var(--primary);
   cursor: pointer;
 }
+
+/* NAVBAR */
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+
+header nav a.active {
+  background: var(--primary);
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
