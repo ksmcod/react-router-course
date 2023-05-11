@@ -16,5 +16,9 @@ export default function Career() {
 // Loader function
 export async function careersLoader () {
     const data = await fetch('http://localhost:4001/careers')
+
+    if(!data.ok) {
+        throw Error("Could not fetch careers!")
+    }
     return data.json()
 }
